@@ -8,8 +8,8 @@ end
 
 def update_counting_hash(hash, key)
   hash[key]
-  if key ==
-    return + 1 
+  hash[:key] = 1 
+    
  
 
   # given a hash an a key as parameters, return an updated hash
